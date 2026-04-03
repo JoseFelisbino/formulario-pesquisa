@@ -12,7 +12,7 @@
     <section>
         <form action="" method="get">
 
-            <fieldset>
+           <!-- <fieldset>
                 <legend>Dados Pessoais</legend>
                 <label for="userName">Nome:</label>
                 <input type="text" name="userName" required>
@@ -32,7 +32,6 @@
                 <label for="userImage">Upload de foto</label>
                 <input type="file" accept="image/*" name="userImage">
                 <br>
-                <button type="submit">Enviar</button>
             </fieldset>
 
             <fieldset>
@@ -70,10 +69,29 @@
                 <input type="text">
 
                 <br>
-                <button type="submit">Enviar</button>
+
+            </fieldset>
+            --> 
+
+            <fieldset>
+                <legend>Híbitos</legend>
+                <p>Redes sociais:</p>
+
+                <input type="checkbox" name="social" value="Instagram">
+                <label for="social">Intagram</label>
+                <br>
+                <input type="checkbox" name="social" value="Facebook">
+                <label for="social">Facebook</label>
+                <br>
+                <input type="checkbox" name="social" value="Linkedin">
+                <label for="social">Linkedin</label>
+
 
 
             </fieldset>
+
+            <button type="submit">Enviar</button>
+
         </form>
     </section>
 </body>
