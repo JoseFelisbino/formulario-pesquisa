@@ -11,6 +11,7 @@
     </header>
     <section>
         <form action="" method="get">
+
             <fieldset>
                 <legend>Dados Pessoais</legend>
                 <label for="userName">Nome:</label>
@@ -32,6 +33,46 @@
                 <input type="file" accept="image/*" name="userImage">
                 <br>
                 <button type="submit">Enviar</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Perfil</legend>
+
+                <p>Gênero:</p>
+                <input type="radio" name="userGender" value="Feminino">
+                <label for="userGender">Feminino</label>
+
+                <input type="radio" name="userGender" value="Masculino">
+                <label for="userGender">Masculino</label>
+
+                <input type="radio" name="userGender" value="NotInformed">
+                <label for="userGender">Prefiro não informar</label>
+                <br>
+
+                <label for="maritalStatus">Estado cívil</label>
+                <select name="maritalStatus">
+                    <option value="NotInformed">Selecione...</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Divorciado">Divorciado</option>
+                    <option value="Solteiro">Solteiro</option>
+                </select>
+                <br>
+                <label for="userState">Estado</label>
+                <select name="userState">
+                    <option value="NotInformed">Selecione...</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Parana</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>
+                <br>
+
+                <label for="userCity">Cidade:</label>
+                <input type="text">
+
+                <br>
+                <button type="submit">Enviar</button>
+
+
             </fieldset>
         </form>
     </section>
